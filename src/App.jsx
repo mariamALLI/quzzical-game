@@ -2,6 +2,7 @@ import { useState} from 'react'
 import './App.css'
 import Quiz from './Quiz'
 import Startquiz from './Startquiz'
+import TQuiz from './trivia'
 
 function App() {
  const [quiz, setQuiz] = useState(false)
@@ -17,7 +18,8 @@ function App() {
 
   return (
     quiz ?
-     <Quiz/>
+    //  <Quiz/>
+     <TQuiz/>
      : 
      <Startquiz 
      startquiz={revealQuiz}

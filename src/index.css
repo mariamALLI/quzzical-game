@@ -6,17 +6,17 @@
 body{
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: #293264;
   background: #040D11;
 }
 
 main,
 section{
-  background-color: #02283C;
-  max-width: 800px;
+  background-color: #F5F7FB;
+  max-width: 900px;
   height: 80vh;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 3rem 4.5rem;
   position: relative;
   margin-top: 3rem;
 }
@@ -68,18 +68,46 @@ section{
 }
 
 button{
-  background-color: #B88400;
+  background-color: #4D5B9E;
   border: none;
-  padding: 1rem 3.5rem;
-  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  border-radius: 20px;
   cursor: pointer;
+  
 }
 
-.answers-flex
-{
+.questionBtn {
+  background-color: transparent;
+  border: 1.5px solid #4D5B9E;
+  color: #293264;
+  margin-left: 1.5rem;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: .79rem;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #293264;
+  margin-top: 2rem;
+  opacity: 0.2;
+}
+
+.score-point {
+  margin-top: 2rem;
+}
+
+.scoreflex {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
 }
 
-
+.playbtn {
+  padding-left: 3rem;
+    padding-right: 3rem;
+    color: #F5F7FB;
+}
