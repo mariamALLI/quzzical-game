@@ -1,8 +1,8 @@
 # React + Vite
  
-- ![fireShot](../quzzical-game/src/assets/shot1.png) 
-- ![fireShot](../quzzical-game/src/assets/shot2.png) 
-- ![fireShot](../quzzical-game/src/assets/shot3.png) 
+- ![fireShot](src/assets/shot1.png/) 
+- ![fireShot](src/assets/shot2.png) 
+- ![fireShot](src/assets/shot3.png) 
 
 
 
