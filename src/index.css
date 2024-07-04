@@ -125,3 +125,12 @@ button{
     padding-right: 3rem;
     color: #F5F7FB;
 }
+
+
+@media (max-width: 650px) {
+  .scoreflex {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

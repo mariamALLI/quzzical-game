@@ -1,4 +1,5 @@
 # React + Vite
 
 # live site #
-[url]('https://quzzicalgame.netlify.app/')
+- Live Site URL: [Netlify](https://quzzicalgame.netlify.app/)
+- Solution URL: [GitHub](https://github.com/mariamALLI/quzzical-game.git)
