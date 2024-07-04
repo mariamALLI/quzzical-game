@@ -13,7 +13,7 @@ export default function Startquiz(props){
            Quizzical
          </h1>
          <p className="small-txt">
-          General knowledge quiz in 20secs
+          General knowledge quiz in 30secs
          </p>
          <button onClick={props.startquiz} className="start-btn">Start quiz</button>  
        </div>
