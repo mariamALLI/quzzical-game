@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
 
 body{
@@ -8,13 +10,21 @@ body{
   margin: 0;
   color: #293264;
   background: #040D11;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+main {
+  position: relative;
 }
 
 main,
 section{
   background-color: #F5F7FB;
   max-width: 900px;
-  height: 80vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 3rem 4.5rem;
   position: relative;
@@ -25,16 +35,14 @@ section{
   height: fit-content;
 }
 
-.small_ball {
-  width: 180px;
-  padding: 2rem;
-  height: 20vh;
-  position: absolute;
-  border-radius: 50%;
+.timer {
+  text-align: right;
+  margin-bottom: 3rem;
+  color: tomato;
 }
 
 .left{
-  background-color: #E0A100;
+  position: absolute;
   left: 0;
   bottom: 0;
   border-bottom-left-radius: 0px;
@@ -43,7 +51,7 @@ section{
 }
 
 .right {
-  background-color: #E07800;
+  position: absolute;
   right: 0;
   top: 0;
   border-bottom-right-radius: 0px;
@@ -67,13 +75,19 @@ section{
   font-size: 1.2em;
 }
 
+.start-btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 button{
   background-color: #4D5B9E;
   border: none;
   padding: 1rem 1.3rem;
   border-radius: 20px;
   cursor: pointer;
-  
+  color: #F5F7FB;
+  font-style: inherit;
 }
 
 .questionBtn {

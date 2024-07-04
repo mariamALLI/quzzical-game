@@ -1,4 +1,4 @@
-import { useState} from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import Quiz from './Quiz'
 import Startquiz from './Startquiz'
@@ -18,8 +18,8 @@ function App() {
 
   return (
     quiz ?
-    //  <Quiz/>
-     <TQuiz/>
+     <Quiz/>
+    //  <TQuiz/>
      : 
      <Startquiz 
      startquiz={revealQuiz}

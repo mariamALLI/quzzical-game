@@ -1,10 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
+import Yellow from '../src/assets/Yellow.png';
+import Blue from '../src/assets/Blue.png';
+
 
 function TQuiz() {
   const [questions, setQuestions] = useState([]);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [score, setScore] = useState(0);
-  const [gameOver, setGameOver] = useState(false);
+//   const [gameOver, setGameOver] = useState(false);
   const buttonRefs = useRef([]);
 
   useEffect(() => {
@@ -72,6 +75,9 @@ function TQuiz() {
 
   return (
     <section>
+         <div className="small_ball right">
+          <img src={Yellow} alt="yellow shaped blob" />
+        </div>
       <div>
         {questions.slice(0, 5).map((question, index) => (
           <div key={question.id}>
@@ -94,11 +100,13 @@ function TQuiz() {
       </div>
       {
         <div className='scoreflex'>
-          {/* <h2>Game Over!</h2> */}
           <h3>You scored {score} / 5 correct answers</h3>
           <button className='playbtn' onClick={playAgain}>Play Again</button>
         </div>
       }
+       <div className="small_ball left">
+       <img src={Blue} alt="blue shaped blob" />
+       </div>
     </section>
   );
 }
